@@ -2,7 +2,7 @@ module sev_seg_top(
     input wire CLK100MHZ,    // using the same name as pin names
     input wire CPU_RESETN,   
     output wire CA, CB, CC, CD, CE, CF, CG, DP,
-    output wire [7:0] AN,    
+    output wire [7:0] AN,     
     input wire [15:0] SW     
 );
 logic reset_n;
